@@ -50,8 +50,7 @@ namespace WindowWalker
             bool result = Components.InteropAndHelpers.RegisterHotKey(
                 this.hwnd, 
                 1, 
-                (int)Components.InteropAndHelpers.Modifiers.Ctrl | (int)Components.InteropAndHelpers.Modifiers.Win,
-                (int)Keys.None);
+                (int)Components.InteropAndHelpers.Modifiers.Alt ,(int)Keys.Space);
         }
 
         /// <summary>
